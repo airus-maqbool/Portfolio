@@ -1,0 +1,169 @@
+/* Basic styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    border-bottom: 2px solid #388E3C;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* About section styles */
+section#about {
+    padding: 60px 20px;
+    background-color: #F9F9F9;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-text {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Projects section styles */
+section#projects {
+    padding: 60px 20px;
+    background-color: #E3F2FD;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.project {
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact section styles */
+section#contact {
+    padding: 60px 20px;
+    background-color: #F1F8E9;
+}
+
+section#contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section#contact p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+section#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
